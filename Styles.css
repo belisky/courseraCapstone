@@ -1,0 +1,31 @@
+:root {
+    --header-bg:#9575cd;
+    --footer-bg:#d1c4e9;
+}
+
+.jumbotron {
+    margin:0 auto;
+    padding:70px 30px;
+    background-color: var(--header-bg);
+    color:floralwhite;
+}
+
+.row-content,.row-corporate {
+    margin:0 auto;
+    padding:50px 0;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+.row-corporate {
+    border:none;
+}
+.corporate-header {
+    margin-bottom: 1em;
+}
+
+ 
+.footer {
+    margin:0 auto;
+    padding:20px 0;
+    background-color: var(--footer-bg);
+}

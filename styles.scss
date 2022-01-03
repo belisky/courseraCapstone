@@ -1,0 +1,30 @@
+$lt-gray:#ddd;
+$background-dark:#512da8;
+$background-light:#9575cd;
+$background-pale:#d1c4e9;
+
+$carousel-item-height:300px;
+
+@mixin zero-margin($pad-up-dn,$pad-left-right){
+    margin:0 auto;
+    padding:$pad-up-dn $pad-left-right;
+}
+
+.row-header {
+    @include zero-margin(0px,0px);
+    border-bottom:1px ridge;
+    min-height:400px;
+}
+.footer {
+    background-color: $background-pale;
+    @include zero-margin(20px,0px);
+}
+.modal-header {
+    background-color:$background-dark;
+}
+.modal-body {
+    background-color:$background-pale;
+}
+.modal {
+    color:floralwhite;
+}
